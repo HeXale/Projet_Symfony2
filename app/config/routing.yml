@@ -1,0 +1,13 @@
+exam_front_carte:
+    resource: "@ExamFrontCarteBundle/Resources/config/routing.yml"
+    prefix:   /
+
+seveinfo_front_carte:
+    resource: "@SeveinfoFrontCarteBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
+app:
+    resource: @AppBundle/Controller/
+    type:     annotation
+

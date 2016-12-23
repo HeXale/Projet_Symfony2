@@ -1,0 +1,18 @@
+{% extends 'SeveinfoFrontCarteBundle::layout.html.twig' %}
+
+<h3>formulaire</h3>
+<div class="form">
+     <form method="post" {{ form_enctype(form) }}>
+           {{ form_widget(form) }}
+           <input type="submit" class="btn" />
+     </from>
+</div>
+
+
+{% block content %}
+    <h2>Création d'un nouveau client</h2>
+    <p>vous allez créer un nouveau client</p>
+    {% include 
+'SeveinfoFrontCarteBundle:Default:formulaire.html.twig' %}
+    
+{% endblock %}

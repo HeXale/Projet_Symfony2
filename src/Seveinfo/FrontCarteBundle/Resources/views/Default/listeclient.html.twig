@@ -1,0 +1,12 @@
+{% extends 'SeveinfoFrontCarteBundle::layout.html.twig' %}
+{% block content %}
+	
+	{%for client in clients%}
+		
+		<strong>Client Id</strong>&nbsp; {{ client.id }}<br>
+		<strong>Client Nom Prénom</strong>&nbsp; {{ client.nom }} 
+		{{ client.prenom }}<br>
+		<strong>Client Mail</strong>&nbsp; {{ client.mail }}<br><br><br>
+
+	{%endfor%}
+{% endblock %}

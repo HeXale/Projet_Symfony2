@@ -1,0 +1,4 @@
+services:
+#    seveinfo_front_carte.example:
+#        class: Seveinfo\FrontCarteBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

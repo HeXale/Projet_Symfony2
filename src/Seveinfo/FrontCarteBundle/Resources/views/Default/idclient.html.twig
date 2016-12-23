@@ -1,0 +1,13 @@
+{% extends 'SeveinfoFrontCarteBundle::layout.html.twig' %}
+{% block content %}
+		{% for montant in montants %}
+			<strong>montant Id</strong>&nbsp; {{ montant.id }}<br>
+			<strong>montant</strong>&nbsp; {{ montant.montant }} 
+			<strong>montant date </strong>&nbsp; {{ montant.date|date('d/m/Y') }}
+			<strong>Client Nom Prenom</strong>&nbsp; {{ montant.client.nom}}<br>
+			<br><br>
+		{% endfor %}
+		{% for coupon in coupons %}
+			Coupon ID &nbsp; {{ coupon.id }}<br>
+			Coupon date &nbsp; {{ .date|date('d/m/Y') }}
+{% endblock %}

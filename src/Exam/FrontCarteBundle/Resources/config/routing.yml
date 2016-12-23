@@ -1,0 +1,7 @@
+exam_front_carte_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: ExamFrontCarteBundle:Default:index }
+
+exam_front_carte_date:
+    path:     /exam/action2/{param}
+    defaults: { _controller: ExamFrontCarteBundle:Default:date }

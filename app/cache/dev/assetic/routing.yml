@@ -1,0 +1,5 @@
+_assetic:
+    resource: .
+    type: assetic
+_app:
+    resource: /home/2015DTMI12/e21406457/public_html/app/config/routing_dev.yml

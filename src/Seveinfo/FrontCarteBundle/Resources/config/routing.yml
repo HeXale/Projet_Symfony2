@@ -1,0 +1,36 @@
+seveinfo_front_carte_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: SeveinfoFrontCarteBundle:Default:index }
+
+seveinfo_front_carte_date:
+    path:     /date
+    defaults: { _controller: SeveinfoFrontCarteBundle:Default:date}
+
+seveinfo_front_carte_appel:
+    path:     /appel/{arg}
+    defaults: { _controller: SeveinfoFrontCarteBundle:Deust:appel}
+
+seveinfo_front_carte_voirclient:
+    path:     /voirclient/{id}
+    defaults: { _controller: SeveinfoFrontCarteBundle:Default:voirClient}
+
+seveinfo_front_carte_voirclientbis:
+    path:     /clientbis/{id}
+    defaults: { _controller: SeveinfoFrontCarteBundle:Default:voirClientBis}
+
+seveinfo_front_carte_listeclient:
+    path:     /listeclient
+    defaults: { _controller: SeveinfoFrontCarteBundle:Default:listeClient}
+
+seveinfo_front_carte_voirmontantclient:
+    path:     /montant/client/{id}
+    defaults: { _controller:SeveinfoFrontCarteBundle:Default:voirMontantClient}
+seveinfo_front_carte_premiererechercheclient:
+    path:     /premiererechercheclient/{partNom}
+    defaults: { _controller:SeveinfoFrontCarteBundle:Default:premiereRechercheClient}
+seveinfo_front_carte_createclient:
+    path:     /createclient
+    defaults: { _controller:SeveinfoFrontCarteBundle:Default:createClient}
+seveinfo_front_carte_idclient:
+    path:     /exam/action3/client/{idclient}
+    defaults: { _controller:SeveinfoFrontCarteBundle:Default:idclient}
